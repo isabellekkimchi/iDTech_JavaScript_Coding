@@ -28,7 +28,7 @@ function makePac() {
   newimg.width = 100;
 
   // TODO: set position here
-  newimg.position = 0
+  newimg.position = setToRandom(200)
   // TODO add new Child image to game
   game.appendChild(newimg);
 
